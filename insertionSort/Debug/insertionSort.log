@@ -1,5 +1,2 @@
-﻿  insertionSort.cpp
-insertionSort.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl generate_random_file(char const *,int,int,int)" (?generate_random_file@@YAXPBDHHH@Z) в функции "void __cdecl handle_file_generation(void)" (?handle_file_generation@@YAXXZ).
-insertionSort.obj : error LNK2019: ссылка на неразрешенный внешний символ "int * __cdecl read_array_from_file(char const *,int &)" (?read_array_from_file@@YAPAHPBDAAH@Z) в функции "void __cdecl handle_file_input(void)" (?handle_file_input@@YAXXZ).
-insertionSort.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl sort_array(int *,int)" (?sort_array@@YAXPAHH@Z) в функции "void __cdecl handle_file_input(void)" (?handle_file_input@@YAXXZ).
-C:\Users\79053\source\repos\insertionSort\Debug\insertionSort.exe : fatal error LNK1120: неразрешенных внешних элементов: 3
+﻿insertionSort.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl sort_array(int *,int)" (?sort_array@@YAXPAHH@Z) в функции "void __cdecl handle_file_input(void)" (?handle_file_input@@YAXXZ).
+C:\Users\79053\Desktop\Новая папка\Debug\insertionSort.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

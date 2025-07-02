@@ -5,10 +5,45 @@
 #include <stdlib.h>
 #include <time.h>
 
-void generate_random_file(const char* filename, int min, int max, int count);
-int* read_array_from_file(const char* filename, int& size);
 void sort_array(int* parg, int size);
-int* input_array_manually(int* size);
+
+void generate_random_file(char* fileName, int min, int max, int size) {
+    FILE* file = fopen(fileName, "w");
+
+    if (file == NULL)
+        return;
+
+    srand(time(0));
+
+    fprintf(file, "%d ", size);
+
+    int range = max - min + 1;
+
+    for (int i = 0; i < size; i++) {
+        int number = rand() % range + min;
+        fprintf(file, "%d ", number);
+    }
+
+    fclose(file);
+}
+
+int* read_array_from_file(char* fileName, int& size) {
+    FILE* file = fopen(fileName, "r");
+
+    if (file == NULL)
+        return nullptr;
+
+
+    fscanf(file, "%d", &size);
+    int* array = new int[size];
+
+    for (int i = 0; i < size; i++) {
+        fscanf(file, "%d", &array[i]);
+    }
+
+    fclose(file);
+    return array;
+}
 
 void print_array(int* array, int size) {
     printf("Массив: ");
