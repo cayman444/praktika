@@ -5,7 +5,21 @@
 #include <stdlib.h>
 #include <time.h>
 
-void sort_array(int* parg, int size);
+void sort_array(int* parg, int size)
+{
+    for (int i = 1; i < size; i++)
+    {
+        int a = parg[i];
+        int j = i - 1;
+
+        while (j >= 0 && parg[j] > a)
+        {
+            parg[j + 1] = parg[j];
+            j--;
+        }
+        parg[j + 1] = a;
+    }
+}
 
 void generate_random_file(char* fileName, int min, int max, int size) {
     FILE* file = fopen(fileName, "w");

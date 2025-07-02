@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\practica\\praktika\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B31891FA-6E34-495C-8F24-C7622EF8F9FD}|insertionSort\\insertionSort.vcxproj|D:\\practica\\praktika\\insertionSort\\insertionSort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B31891FA-6E34-495C-8F24-C7622EF8F9FD}|insertionSort\\insertionSort.vcxproj|solutionrelative:insertionSort\\insertionSort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "insertionSort.cpp",
+              "DocumentMoniker": "D:\\practica\\praktika\\insertionSort\\insertionSort.cpp",
+              "RelativeDocumentMoniker": "insertionSort\\insertionSort.cpp",
+              "ToolTip": "D:\\practica\\praktika\\insertionSort\\insertionSort.cpp",
+              "RelativeToolTip": "insertionSort\\insertionSort.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-02T20:00:56.125Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
